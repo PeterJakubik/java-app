@@ -1,4 +1,4 @@
-FROM gradle:jdk8 as builder
+FROM gradle:5.6.4-jdk8 as builder
 WORKDIR /usr/app/src
 
 COPY . /usr/app/src
