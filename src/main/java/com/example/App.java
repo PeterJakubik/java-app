@@ -26,7 +26,7 @@ public class App {
             log.warn("this is a warning");
             log.error("this is an error");
 
-            throw new NullPointerException("Ooh noes! Something bad happened");
+            throw new NullPointerException("Ooh no! Something bad happened");
         }
         catch (Exception e) {
             log.error("Error occurred!", e);
