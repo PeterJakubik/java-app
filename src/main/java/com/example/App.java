@@ -23,6 +23,9 @@ public class App {
             log.info("I am a Java app");
             log.info("Just logging stuff");
 
+            log.warning("this is a warning");
+            log.error("this is an error");
+
             throw new NullPointerException("Ooh noes! Something bad happened");
         }
         catch (Exception e) {
